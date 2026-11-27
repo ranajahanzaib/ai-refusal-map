@@ -1,0 +1,12 @@
+{
+  "name": "ai-refusal-map",
+  "private": true,
+  "packageManager": "pnpm@10.6.3",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "start": "pnpm --filter web start",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "typecheck": "pnpm --filter web typecheck"
+  }
+}

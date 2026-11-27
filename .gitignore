@@ -72,5 +72,32 @@ yarn-error.log*
 
 # Python
 venv
+.venv
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.pyright/
+*.py[cod]
+
+# Local research data and credentials
+data/raw/
+data/processed/
+data/curated/
+data/annotations.sqlite3*
+data/analysis.duckdb*
+artifacts/models/
+artifacts/embeddings/
+artifacts/evaluations/
+artifacts/reports/
+.env
+.env.*
+!.env.example
+apps/web/AGENTS.md
+
+# Package manager artifacts
+node_modules/
+.pnpm-store/
+.next/
+uv.lock.tmp
 
 PLAN.md
