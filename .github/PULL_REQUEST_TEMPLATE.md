@@ -1,10 +1,13 @@
-Fixes #<issue_number_goes_here>
+## Summary
 
-> It's a good idea to open an issue first for discussion.
+Describe the change and its motivation.
 
-**Description**
-A brief summary of what this PR does and why.
+## Verification
 
-- [ ] Tests pass
-- [ ] README updated if needed
-- [ ] No breaking changes (or described below)
+- [ ] Tests pass, or the reason they were not run is stated.
+- [ ] Linting and type checks pass for the affected code.
+- [ ] Documentation reflects any user-visible or research-method changes.
+
+## Compatibility
+
+Describe any breaking changes or write `None`.

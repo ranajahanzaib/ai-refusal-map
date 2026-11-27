@@ -1,46 +1,27 @@
-## Contributing
+# Contributing
 
-We welcome contributions of all kinds to improve this project! Here's how you can get involved:
+Contributions are welcome. For substantial changes, open an issue to discuss the proposal before implementation.
 
-1. **Fork the Repository**: Start by forking the repository to your GitHub account.
+## Development setup
 
-2. **Clone Your Fork**: Clone the forked repository to your local machine:
+Fork the repository, then clone your fork:
 
-   ```bash
-   git clone <repo_url>
-   cd repo_dir
-   ```
+```sh
+git clone https://github.com/ranajahanzaib/ai-refusal-map.git
+cd ai-refusal-map
+make setup
+```
 
-3. **Create a Branch**: Create a new branch for your feature or bug fix:
+Create a branch for the change and start the relevant services with `make dev` or `make api`.
 
-   ```bash
-   git checkout -b feature-name
-   ```
+## Before opening a pull request
 
-4. **Make Changes**: Make your changes to the codebase. Be sure to follow existing code style and conventions.
+- Add or update tests for changed behavior.
+- Run `make test`, `make lint`, `make typecheck`, and `make build` when applicable.
+- Update documentation when commands, data contracts, or research interpretations change.
+- Keep real transcripts, private annotations, credentials, model weights, and generated research artifacts out of Git.
+- Label synthetic examples clearly and do not describe unreviewed model output as human annotation.
 
-5. **Commit Changes**: Commit your changes with a clear and descriptive message:
+Open a pull request against `main` with a concise summary, the motivation, and the checks performed. Report security vulnerabilities through the process in [SECURITY.md](.github/SECURITY.md), not in a public issue.
 
-   ```bash
-   git commit -m "Add detailed description of the changes"
-   ```
-
-6. **Push Changes**: Push your changes to your fork:
-
-   ```bash
-   git push origin feature-name
-   ```
-
-7. **Submit a Pull Request**: Open a pull request from your branch to the main repository's branch. Include a detailed description of your changes and the problem they solve.
-
-8. **Review and Feedback**: Participate in the review process. Make any requested changes, and your contribution will be merged!
-
-### Guidelines
-
-- Ensure your code follows the existing style and conventions.
-- Include tests for any new functionality or bug fixes.
-- Write clear, concise commit messages and pull request descriptions.
-
-### Issues
-
-Feel free to report bugs or suggest enhancements by creating an issue. Be sure to include detailed information about the problem and, if possible, steps to reproduce it.
+Bug reports and feature proposals can be submitted through the repository's issue templates.
