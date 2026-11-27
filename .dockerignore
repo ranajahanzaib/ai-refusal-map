@@ -1,0 +1,16 @@
+.git
+.next
+node_modules
+**/node_modules
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+.pyright
+data
+artifacts
+.env
+.env.*
+!.env.example
+*.log
+apps/web/AGENTS.md
